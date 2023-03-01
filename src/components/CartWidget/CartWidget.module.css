@@ -1,0 +1,15 @@
+.cartZone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 2px;
+}
+
+.notification{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    color: #f1faee;
+    border-radius: 25px;
+
+}
