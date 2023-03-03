@@ -1,12 +1,7 @@
-import styles from "./ItemListContainer.module.css";
-import Typography from '@mui/material/Typography';
+import Typography from "@mui/material/Typography";
 
-const ItemListContainer = ({greeting}) => {
-  return (
-    <Typography variant="h3">
-        {greeting}
-    </Typography>
-  )
-}
+const ItemListContainer = ({ greeting }) => {
+  return <Typography variant="h3">{greeting}</Typography>;
+};
 
-export default ItemListContainer
+export default ItemListContainer;

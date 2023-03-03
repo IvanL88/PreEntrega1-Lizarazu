@@ -1,18 +1,13 @@
-
-import { Container } from '@mui/system'
-import Navbar from './components/Navbar/navbar'
-import ItemListCotainer from './components/ItemListContainer/ItemListContainer'
-import styles from "./App.module.css";
+import Navbar from "./components/Navbar/Navbar";
+import ItemListCotainer from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
-
   return (
     <>
-      <Navbar/>    
-      <ItemListCotainer greeting="Bienvenido"/>      
-  
+      <Navbar />
+      <ItemListCotainer greeting="Bienvenido" />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
